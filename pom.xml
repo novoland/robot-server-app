@@ -8,13 +8,13 @@
 		<version>2.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.docker.demo</groupId>
-	<artifactId>springBootDocker</artifactId>
+	<groupId>com.robot</groupId>
+	<artifactId>robot-server-app</artifactId>
 	<version>1.0.0</version>
-	<name>springBootDocker</name>
-	<description>Demo project for Spring Docker sample</description>
+	<name>robot</name>
+	<description>robot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -37,5 +37,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
